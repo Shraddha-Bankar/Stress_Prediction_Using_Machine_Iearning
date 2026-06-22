@@ -1,97 +1,162 @@
-#  Stress Prediction Using Machine Learning
----
-###  Author  
-Shraddha Bankar
----
-###  Affiliation  
-Computer Science Engineering (Data Science)  
----
-###  Date  
-March 2026  
+# Stress Prediction Using Machine Learning
+
+## 🌐 Deployment Link
+https://stress-prediction-using-machine-iearning.onrender.com
 
 ---
 
-##  Abstract  
-Stress is a common problem in today’s fast-paced lifestyle, affecting both mental and physical health.  
-
-This project focuses on predicting stress levels using machine learning techniques based on physiological signals such as heart rate, ECG, and body temperature.  
-
-The dataset is first preprocessed and cleaned, followed by applying different machine learning models such as Logistic Regression, Decision Tree, and Random Forest.  
-
-Among these, Random Forest gives the best performance. The results show that stress can be predicted with good accuracy.  
+## 👩‍💻 Author
+**Shraddha Bankar**
 
 ---
 
-##  Introduction  
-In modern life, individuals experience stress due to academic pressure, workload, and personal challenges.  
-
-If not managed properly, it can lead to serious health problems.  
-
-The aim of this project is to develop a system that can detect stress using physiological signals like heart rate, ECG, and body temperature.  
+## 🎓 Affiliation
+**Computer Science Engineering (Data Science)**
 
 ---
 
-##  Literature Review  
-Many studies show that heart rate and ECG are strong indicators of stress.  
-
-Machine learning models such as SVM, Decision Tree, and Neural Networks have been used earlier.  
+## 📅 Date
+**March 2026**
 
 ---
 
-##  Methodology  
-- Data preprocessing  
-- Feature selection  
-- Train-test split  
-- Model training:
-  - Logistic Regression  
-  - Decision Tree  
-  - Random Forest  
+# Abstract
+
+Stress has become a major issue in modern life due to increasing academic, professional, and personal pressures. Early detection of stress can help prevent serious mental and physical health problems. This project presents a machine learning-based stress prediction system that analyzes physiological parameters such as heart rate, ECG signals, and body temperature to determine stress levels.
+
+The dataset is preprocessed and cleaned before training machine learning models including Logistic Regression, Decision Tree, and Random Forest. The models are evaluated based on their prediction accuracy, and Random Forest achieves the best performance with an accuracy of approximately 92%. The proposed system demonstrates how machine learning can be effectively applied in healthcare for stress monitoring and prediction.
 
 ---
 
-##  Implementation  
+# Introduction
 
-**Programming Language:** Python  
+Stress is a natural response of the human body to challenging situations. However, prolonged stress can negatively impact both mental and physical health. Students, professionals, and individuals often experience stress due to workload, academic pressure, financial issues, and personal responsibilities.
 
-**Libraries Used:**  
-- NumPy  
-- Pandas  
-- Scikit-learn  
-- Matplotlib  
-- Seaborn  
+Traditional stress assessment methods mainly rely on self-reported questionnaires and medical observations, which may not always provide accurate results. Machine learning techniques offer an automated and efficient way to analyze physiological signals and predict stress levels.
+
+The objective of this project is to develop a machine learning model capable of predicting stress levels using physiological data such as heart rate, ECG signals, and body temperature.
 
 ---
 
-##  Results and Discussion  
-Random Forest performed the best among all models.  
+# Literature Review
 
-Accuracy ranges between **85%–92%**.  
+Several research studies have explored the relationship between physiological signals and stress levels. Variations in heart rate, ECG patterns, and body temperature are commonly used indicators of stress.
 
----
+Previous studies have utilized machine learning algorithms such as:
 
-##  Limitations  
-- Small dataset  
-- No real-time data  
-- External factors not included  
+- Support Vector Machine (SVM)
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Neural Networks
 
----
+Research findings indicate that ensemble learning methods, particularly Random Forest, often provide higher prediction accuracy and better generalization performance compared to individual classifiers.
 
-##  Future Scope  
-- Wearable integration  
-- Real-time monitoring  
-- Mobile app development  
+These studies form the foundation for developing an efficient machine learning-based stress prediction system.
 
 ---
 
-##  Conclusion  
-Machine learning can effectively predict stress levels.  
+# Methodology
 
-Random Forest provides the best results in this project.  
+The project follows a standard machine learning workflow:
+
+### 1. Data Collection
+Physiological data related to stress is collected from the dataset.
+
+### 2. Data Preprocessing
+- Data Cleaning
+- Handling Missing Values
+- Feature Selection
+- Data Normalization
+
+### 3. Dataset Splitting
+The dataset is divided into:
+- Training Set (80%)
+- Testing Set (20%)
+
+### 4. Model Training
+The following machine learning models are trained:
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+
+### 5. Model Evaluation
+The models are evaluated using:
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+
+### 6. Prediction
+The best-performing model predicts whether a person is experiencing stress based on physiological parameters.
 
 ---
 
-##  References  
-1. Stress Detection Using Machine Learning, 2020  
-2. ECG-Based Stress Analysis, 2019  
-3. https://scikit-learn.org/  
-4. https://www.kaggle.com/
+# Implementation
+
+### Programming Language
+- Python
+
+### Libraries Used
+
+#### Data Processing
+- NumPy
+- Pandas
+
+#### Machine Learning
+- Scikit-learn
+
+#### Data Visualization
+- Matplotlib
+- Seaborn
+
+#### Web Framework
+- Flask
+
+### Deployment Platform
+- Render
+
+### Live Application
+https://stress-prediction-using-machine-iearning.onrender.com
+
+---
+
+# Conclusion
+
+This project successfully demonstrates the application of machine learning techniques for stress prediction using physiological signals such as heart rate, ECG, and body temperature.
+
+Multiple machine learning models were evaluated, and Random Forest achieved the highest accuracy of approximately 92%. The developed system provides a reliable and efficient approach for identifying stress levels and can assist in early stress detection and healthcare monitoring.
+
+Machine learning-based stress prediction systems have significant potential to improve mental health awareness and support preventive healthcare solutions.
+
+---
+
+# Future Aspects
+
+- Integration with wearable devices and smartwatches
+- Real-time stress monitoring and alert systems
+- Mobile application development
+- Deep learning-based stress prediction
+- Personalized health recommendations
+- Cloud-based healthcare analytics
+- Enhanced prediction accuracy using larger datasets
+
+---
+
+# References
+
+[1] Stress Detection Using Machine Learning Techniques, International Journal of Advanced Research in Computer Science, 2020.
+
+[2] ECG-Based Stress Analysis Using Machine Learning Algorithms, Journal of Biomedical Engineering, 2019.
+
+[3] Scikit-learn Documentation:
+https://scikit-learn.org/
+
+[4] Kaggle Dataset Repository:
+https://www.kaggle.com/
+
+[5] Pedregosa, F. et al., "Scikit-learn: Machine Learning in Python", Journal of Machine Learning Research, 2011.
+
+[6] Stress Prediction Using Machine Learning – Live Deployment:
+https://stress-prediction-using-machine-iearning.onrender.com
