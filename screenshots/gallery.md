@@ -1,3 +1,4 @@
+<img width="1912" height="865" alt="Screenshot 2026-06-28 152127" src="https://github.com/user-attachments/assets/7818a78e-fe25-4610-a35e-e048a1e12617" />
 # 📸 Screenshots — NEUROSCAN v3.0 · AI Biometric Stress Platform
 
 > Real-time stress detection using camera, voice, and eye behavior analysis.  
@@ -9,7 +10,7 @@
 
 > **"Know Your Stress"** — Users register with email/password or via Google/GitHub OAuth. The landing page highlights key features: blink detection, voice stress analysis, and session heatmaps.
 
-<img width="1912" height="865" alt="Screenshot 2026-06-28 152127" src="https://github.com/user-attachments/assets/23026568-352c-4bc2-a8b4-d460aee996d1" />
+<img width="1912" height="865" alt="Screenshot 2026-06-28 152127" src="https://github.com/user-attachments/assets/7818a78e-fe25-4610-a35e-e048a1e12617" />
 
 
 ---
