@@ -1,0 +1,68 @@
+Stress Prediction Using Machine Learning
+Project File Structure
+================================================
+
+Stress_Prediction_Using_Machine_Iearning/
+│
+├── models/                         # Trained ML model files
+│   └── (pickle/joblib model files, e.g., stress_model.pkl)
+│
+├── static/                         # Static web assets
+│   ├── css/                        # Stylesheets
+│   │   └── style.css
+│   ├── js/                         # JavaScript files
+│   │   └── script.js
+│   └── images/                     # Image assets
+│
+├── templates/                      # HTML templates (Jinja2 / Flask)
+│   ├── index.html                  # Landing / Home page
+│   ├── predict.html                # Prediction form page
+│   └── result.html                 # Result display page
+│
+├── .gitignore                      # Git ignored files list
+├── README.md                       # Project documentation
+├── app.py                          # Main Flask application entry point
+├── migrate.py                      # Database migration script
+├── model.py                        # ML model training & evaluation script
+├── requirements.txt                # Python package dependencies
+├── test_db.py                      # Database connection/unit test script
+└── vercel.json                     # Vercel deployment configuration
+
+================================================
+File Descriptions
+================================================
+
+app.py
+  - Main Flask web application
+  - Defines routes: '/' (home), '/predict' (form), '/result' (output)
+  - Loads the trained ML model from /models/
+  - Handles user input, preprocessing, and returns prediction
+
+model.py
+  - Loads and preprocesses the dataset
+  - Trains machine learning model(s) (e.g., Random Forest, SVM, etc.)
+  - Evaluates model performance (accuracy, confusion matrix, etc.)
+  - Saves trained model to /models/ directory using pickle/joblib
+
+migrate.py
+  - Handles database schema setup or migration
+  - Creates tables, initializes DB for storing predictions/logs
+
+test_db.py
+  - Tests database connectivity
+  - Verifies CRUD operations work correctly
+
+requirements.txt
+  - Lists all Python dependencies
+  - Common packages: flask, scikit-learn, pandas, numpy, joblib, etc.
+
+vercel.json
+  - Configuration for deploying the Flask app on Vercel
+  - Defines build commands, routes, and runtime settings
+
+.gitignore
+  - Excludes: __pycache__/, *.pyc, .env, venv/, *.pkl (optional), etc.
+
+================================================
+Total: 3 Folders | 8 Root Files
+================================================
